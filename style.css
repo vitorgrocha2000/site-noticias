@@ -29,7 +29,7 @@ header li a {
 }
 
 header li a:hover {
-    text-decoration:double;
+    text-decoration: double;
 }
 
 .container {
@@ -112,9 +112,10 @@ section h2 {
     background-color: rgb(255, 255, 59);
     color: #000;
 }
-    
+
 footer {
-        background-color: rgb(56, 56, 56);
-        color: aliceblue;
-        padding: 16px 0;
-    }
+    background-color: rgb(56, 56, 56);
+    color: aliceblue;
+    padding: 16px 0;
+    text-align: center;
+}
