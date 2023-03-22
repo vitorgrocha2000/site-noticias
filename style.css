@@ -14,11 +14,12 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header li {
     display: inline;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     font-weight: bold;
 }
 
@@ -34,6 +35,7 @@ header li a:hover {
 
 .container {
     width: 95%;
+    /* mudei 1366px para 95% pois minha tela é 1280px e assim adequa-se para os dois tamanhos*/
     margin: 0 auto;
 }
 
@@ -110,6 +112,25 @@ section h2 {
 
 #economy .articles article a {
     background-color: rgb(255, 255, 59);
+    color: #000;
+}
+
+#politics {
+    background-color: rgb(211, 154, 154);
+}
+
+#politics .articles article a {
+    background-color: rgba(216, 56, 56, 0.863);
+    color: #000;
+
+}
+
+#technology {
+    background-color: rgb(200, 210, 255);
+}
+
+#technology .articles article a {
+    background-color: rgb(95, 59, 255);
     color: #000;
 }
 
